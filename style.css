@@ -1,97 +1,109 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+* {margin: 0;
+padding: 0;}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+.banner-container{
+  background-image: url('https://placehold.co/1920x1080/CE2829/818182');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+  width: 100%;
+  height: 100vh;
+  
+  
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
+#asd {
+  font-size: 200px;
+  font-style: italic;
+  text-align: end;
 }
 
-.card {
-  padding: 2em;
+
+.banner-container h2 {
+  font-family:"Londrina Solid";
+  font-size: 275%;
+  font-weight:800;
+  padding: 40px 0 ;
+  letter-spacing: 1px;
 }
 
-.read-the-docs {
-  color: #888;
+.banner-container p {
+  font-family: "Satisfy" ;
+  font-size: 165%;
+  color: #FDC913;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.banner-container h1 {
+  font-family:"Roboto Condensed";
+  font-weight: 320;
+  font-size: 450%;
+  letter-spacing: 1.5px;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.banner-container button {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80%;
+  background: #FDC913;
+  padding: 15px 56px;
+  border-radius: 100px;
+  border: none;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/* .satisfy-regular { italic el yazısı
+  font-family: "Satisfy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+  .roboto-condensed-<uniquifier> {
+  font-family: "Roboto Condensed", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  .quattrocento-regular {
+  font-family: "Quattrocento", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+  .barlow-regular {
+  font-family: "Barlow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+  .londrina-solid-regular {
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+.menu-nav-bar {
+  background: white;
+  
+}
+.menu-nav-bar ul {
+  padding: 20px 0 ;
+  font-family: 'Barlow';
+  font-weight: 600;
+  color: #1f1f1f;
+  text-shadow:  0px 5px 5px rgb(129, 129, 129);
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.menu-nav-bar ul li {
+  margin: 0 30px;
+}
+.menu-nav-bar ul li img {
+  margin-right: 15px;
+  vertical-align: middle;
 }
