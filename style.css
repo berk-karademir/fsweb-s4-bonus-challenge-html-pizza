@@ -1,13 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
-body{
-  background-color: #FAF7F2;
+body {
+  background-color: #faf7f2;
+  overflow-x: hidden;
 }
-.banner-container{
-  background-image: url('public/assets/iteration-1/home-banner.png');
-  background-size: cover; 
+.banner-container {
+  background-image: url("public/assets/iteration-1/home-banner.png");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
@@ -19,34 +21,32 @@ body{
 }
 
 .banner-container h2 {
-  font-family:"Londrina Solid";
+  font-family: "Londrina Solid";
   font-size: 285%;
-  font-weight:800;
-  padding: 40px 0 ;
+  font-weight: 800;
+  padding: 40px 0;
   letter-spacing: 1px;
 }
 
-
 .banner-container p {
-  font-family: "Satisfy" ;
+  font-family: "Satisfy";
   font-size: 165%;
-  color: #FDC913;
+  color: #fdc913;
 }
 
-
 .banner-container h1 {
-  font-family:"Roboto Condensed";
+  font-family: "Roboto Condensed";
   font-weight: 320;
   font-size: 550%;
   letter-spacing: 1.5px;
 }
 
 .banner-container button {
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-style: normal;
   font-weight: 600;
   font-size: 110%;
-  background: #FDC913;
+  background: #fdc913;
   padding: 15px 56px;
   border-radius: 100px;
   border: none;
@@ -82,17 +82,17 @@ body{
 
 .banner-nav-bar {
   background: white;
+  font-size: 1.2rem;
 }
 .banner-nav-bar ul {
-  padding: 20px 0 ;
-  font-family: 'Barlow';
+  padding: 20px 0;
+  font-family: "Barlow";
   font-weight: 600;
   color: #1f1f1f;
-  text-shadow:  0px 5px 5px rgb(129, 129, 129);
+  text-shadow: 0px 5px 5px rgb(129, 129, 129);
   list-style-type: none;
   display: flex;
   justify-content: center;
-  
 }
 
 .banner-nav-bar ul li {
@@ -104,18 +104,18 @@ body{
   vertical-align: middle;
 }
 
-
-.main-section{
+.main-section {
   scale: 80%;
-  margin-left: 275px;
-  display: flex;  
+  display: flex;
+  margin-left: 315px;
 }
 
 .card-container {
   border-radius: 20px;
-  
 }
-.card-container h2, h3, button {
+.card-container h2,
+h3,
+button {
   display: flex;
   flex-direction: column;
 }
@@ -127,28 +127,27 @@ body{
   border-radius: 20px;
 }
 .card-container h2 {
-  font-family: 'Quattrocento';
+  font-family: "Quattrocento";
   font-size: 80px;
   color: white;
-  
 }
-.card-container, .card-container2 {
+.card-container,
+.card-container2 {
   position: relative;
 }
 .card-container h3 {
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 0.8px;
   color: white;
-  
 }
 
 .card-container button {
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-weight: 900;
   font-size: 17px;
-  color:#CE2829;
+  color: #ce2829;
   background: white;
   padding: 20px 40px;
   border-radius: 50px;
@@ -156,11 +155,13 @@ body{
 }
 .card-container2 {
   padding-left: 15px;
-
 }
-.card-container h2, .card-container h3, .card-container button,
-.card-container2 h3, .card-container2 button {
-  position: absolute; 
+.card-container h2,
+.card-container h3,
+.card-container button,
+.card-container2 h3,
+.card-container2 button {
+  position: absolute;
 }
 .card-container h2 {
   top: 8%;
@@ -169,7 +170,7 @@ body{
 
 .card-container h3 {
   top: 45%;
-  left: 8%
+  left: 8%;
 }
 
 .card-container button {
@@ -178,12 +179,11 @@ body{
 }
 
 .card-container2 img {
-  border-radius: 20px
+  border-radius: 20px;
 }
 
-
 .card-container2 > :nth-child(2) {
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-size: 35px;
   font-weight: bold;
   color: white;
@@ -193,27 +193,25 @@ body{
   left: 4%;
 }
 
-
 .card-container2 > :nth-child(3) {
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-weight: 900;
   font-size: 17px;
-  color:#CE2829;
+  color: #ce2829;
   background: white;
   padding: 20px 40px;
   border-radius: 50px;
   border: none;
   top: 30%;
   left: 4%;
-  
 }
 
 .card-container2 > :nth-child(4) {
- margin-top: 18px;
+  margin-top: 18px;
 }
 
 .card-container2 > :nth-child(5) {
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-size: 35px;
   font-weight: 800;
   letter-spacing: 0.8px;
@@ -224,10 +222,10 @@ body{
 }
 
 .card-container2 > :nth-child(6) {
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-weight: 900;
   font-size: 17px;
-  color:#CE2829;
+  color: #ce2829;
   background: white;
   padding: 20px 40px;
   border-radius: 50px;
@@ -235,7 +233,7 @@ body{
   bottom: 5%;
   left: 4%;
 }
-.main-text{
+.main-text {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -243,21 +241,20 @@ body{
 .main-text p {
   font-family: "Satisfy";
   font-size: 200%;
-  color: #CE2829;
+  color: #ce2829;
 }
 .main-text h2 {
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-size: 300%;
   color: #292929;
   margin-bottom: 30px;
 }
 
-
 .main-content-nav-bar ul {
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-weight: 600;
   color: black;
-  text-shadow:  0px 5px 5px rgb(129, 129, 129);
+  text-shadow: 0px 5px 5px rgb(129, 129, 129);
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -268,15 +265,13 @@ body{
   display: flex;
   justify-content: center;
   padding: 0 15px;
-  
 }
 
 .main-content-nav-bar ul li img {
   margin-right: 10px;
-
 }
 .main-content-nav-bar ul li button {
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-weight: 900;
   font-size: 17px;
   color: black;
@@ -291,76 +286,239 @@ body{
 
 .main-content-nav-bar ul li button:hover {
   transition: 500ms;
-  background:#292929;
+  background: #292929;
   color: white;
   scale: 110%;
 }
 
-
-.main-content {
-  
-  font-family: 'Barlow';
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.main-content div {
-  margin: 0 25px;
-  background: white;
+.main-content-card {
+  background: rgb(236, 232, 232);
   border-radius: 12px;
-  padding-bottom: 20px;
 }
 
-.secondary-section:nth-child(3) {
-  padding-bottom: 600px;
-}
-.main-content div:hover {
-  transition: 500ms;
-  scale: 120%;
-}
-
-footer {
-  background: #1A1A1A;
-  color: #FAF7F2;
-  font-family: 'Barlow';
+.footer-container {
+  background: #1a1a1a;
+  color: #faf7f2;
+  font-family: "Barlow";
   display: flex;
-  justify-content: center;
-  border-bottom: 1px solid #292929;
+  justify-content: space-around;
+  padding: 50px 100px;
 }
-footer div {
-  padding: 50px 50px;
-}
-footer ul {
-  list-style-type: none;
+.footer-content2 {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-content1 p {
-  margin-top: 20px;
-  padding: 10px 0;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  color: #888;
+  img {
+    margin-right: 15px;
+  }
+}
+footer {
+  display: flex;
+  align-items: center;
 }
 
-.footer-content1 img {
-  vertical-align: middle;
+.footer-content2 h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
 }
-.footer-content2 {
-  font-size: 120%;
+
+.footer-content2 ul {
+  list-style: none;
 }
-.footer-content2 h3{
-  padding-bottom: 25px;
-}
+
 .footer-content2 ul li {
-  padding-bottom: 10px;
+  color: #888;
+  margin-bottom: 15px;
+}
+.footer-ig-logo {
+  display: flex;
 }
 .footer-insta img {
-  padding: 10px 5px;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 8px;
+}
+.ig-posts-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* Görseller arasındaki boşluk */
 }
 
-.footer-ig-logo {
-display: flex;
+.ig-posts-container img {
+  border-radius: 10px;
 }
-.footer-content3 {
+.footer-ig-logo {
   display: flex;
-  vertical-align: middle;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-ig-logo h3 {
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.footer-content3 {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-content3 img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.footer-content1,
+.footer-content2,
+.footer-insta {
+  margin-bottom: 40px;
+}
+
+.footer-content2 {
+  padding: 0;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px; /* Kartlar arasındaki boşluk */
+}
+
+.main-content-card {
+  font-family: "Barlow";
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.main-content-card img {
+  max-width: 100%;
+}
+
+/*------------- MOBILE HERE ----------------*/
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .banner-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .banner-nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0;
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    li {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .main-section {
+    margin: 0;
+    position: unset;
+    max-width: 100vw;
+    padding: 0;
+    scale: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .card-container {
+      h3 {
+        margin: 50px 0;
+      }
+      button {
+        margin: 70px 0;
+      }
+    }
+    .card-container2 {
+      padding: 0;
+      margin: 20px 0;
+    }
+    img {
+      min-height: 200px;
+    }
+  }
+  .secondary-section {
+    text-align: center;
+  }
+  .main-content-nav-bar {
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  }
+
+  section .main-content-card {
+    font-family: "Barlow";
+    margin: 20px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-content1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-insta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
